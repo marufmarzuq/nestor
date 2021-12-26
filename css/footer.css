@@ -27,6 +27,9 @@
     font-size: 16px;
     border-radius: 30px;
 }
+.footer-subscribe input:focus {
+    outline: 3px solid #639;
+}
 .footer-subscribe button {
     margin: 15px auto 35px;
     display: block;

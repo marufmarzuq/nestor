@@ -1,0 +1,30 @@
+.faq {
+    margin: 80px 0;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 0;
+}
+
+.faq-grid img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.single-faq-container {
+    border: 2px solid;
+    margin-bottom: 14px;
+}
+
+.s-faq-header {
+    font-weight: 800;
+    border-bottom: 1px solid #303030;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.s-faq-desc {
+    padding: 15px;
+}
