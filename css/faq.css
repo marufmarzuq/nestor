@@ -18,6 +18,7 @@
 }
 .accordion-button::after {
     transform: rotate(0deg) !important;
+    filter: grayscale(100%);
 }
 .accordion-button:not(.collapsed) {
     color: #333;
