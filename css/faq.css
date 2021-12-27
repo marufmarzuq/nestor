@@ -13,18 +13,28 @@
     display: block;
     margin: 0 auto;
 }
-.single-faq-container {
-    border: 2px solid;
-    margin-bottom: 14px;
+.accordion-button.collapsed::after {
+    transform: rotate(-90deg) !important;
 }
-
-.s-faq-header {
-    font-weight: 800;
-    border-bottom: 1px solid #303030;
-    padding: 15px;
-    cursor: pointer;
+.accordion-button::after {
+    transform: rotate(0deg) !important;
 }
-
-.s-faq-desc {
-    padding: 15px;
+.accordion-button:not(.collapsed) {
+    color: #333;
+    background-color: #ffffff;
+    border-bottom: 1px solid #9d9d9d;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #9d9d9d;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-item {
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #9d9d9d;
+}
+.accordion-button {
+    font-weight: 600;
 }
