@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600&family=Jost:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;700;900&display=swap");
+@import "header.css";
+@import "blog-cover.css";
+@import "blogs.css";
 @import "faq.css";
 @import "testimonials.css";
 @import "footer.css";
@@ -15,6 +18,7 @@ a {
 }
 ul {
     list-style: none;
+    padding: 0 !important;
 }
 .container {
     max-width: 1200px;
