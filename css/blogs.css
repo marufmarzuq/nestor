@@ -1,5 +1,5 @@
 .blogs {
-    background-color: #f0f0f0;
+    background-color: #ededed;
     padding: 20px 0 50px;
 }
 .blogs-categories {
@@ -43,7 +43,7 @@ section.blogs .container {
     object-fit: cover;
 }
 .blog-content {
-    padding: 45px 30px;
+    padding: 30px;
 }
 span.blog-date {
     font-size: 14px;
@@ -81,4 +81,17 @@ button.blog-read-more-btn {
 button.blog-read-more-btn:hover {
     background-color: #639;
     color: #fff;
+}
+@media (max-width: 780px) {
+    .single-blog-container {
+        display: block;
+    }
+    .single-blog-container.left-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .blogs-categories span {
+        margin-bottom: 10px;
+        display: inline-block;
+    }
 }

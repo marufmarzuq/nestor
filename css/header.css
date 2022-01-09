@@ -1,5 +1,5 @@
 header {
-    background-color: #ddd;
+    background-color: #ededed;
 }
 header .container {
     display: flex;
@@ -15,7 +15,7 @@ header .container {
     color: white;
     display: flex;
     align-items: center;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 40px;
 }
 span.green-circle {
@@ -54,4 +54,17 @@ span.green-text {
 .logo img,
 .menu-toggle img {
     max-width: 100%;
+}
+@media (max-width: 550px) {
+    .header-status p {
+        padding: 0 7px;
+        font-size: 10px;
+    }
+    span.green-circle {
+        height: 9px;
+        width: 9px;
+    }
+    .header-status p img {
+        width: 15px;
+    }
 }

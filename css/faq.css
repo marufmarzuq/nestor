@@ -39,3 +39,11 @@
 .accordion-button {
     font-weight: 600;
 }
+@media (max-width: 850px) {
+    .faq-grid {
+        display: block;
+    }
+    .faq-grid img {
+        display: none;
+    }
+}
